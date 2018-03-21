@@ -1,0 +1,563 @@
+/**************
+STYLE MENU
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+.demo
+{
+    border: 1px solid black;
+
+}
+
+.navLeft
+{
+    float: left;
+    width: 4%;
+    min-width: 50px;
+    height: 100%;
+    min-height: 611px;
+    background: fixed;
+    margin: 0;
+    position: fixed;
+    margin-top: 50px; /* 50px */
+    z-index: 100;
+    background:  #54667a ;
+    color: #54667a;
+   /* color: #54667a ;background: #343a40  #555a6c;*/
+}
+
+.otherpage
+{
+    margin-left: 7%;
+    padding: 15px;
+    margin-right: 0;
+    width: 114%;
+    min-height: 611px;
+    margin-top: 58px;
+
+}
+.logoPExp{
+
+}
+.logoPExp a{
+    position: relative;
+    left:11%;
+    color: white;
+}
+.logoPExp a:hover{
+
+    text-decoration: none;
+    cursor: pointer;
+}
+.contenProfil
+{
+    width: 43px;
+}
+.contenProfil:hover .menuProfile
+{
+    display: block;
+}
+.menuProfile
+{
+    display: none;
+}
+.profilUserPExp img a:hover .profilUserPExp
+{
+    display: block;
+}
+.contenProfil img :after
+{
+    content: 'Profil';
+}
+.menuProfile
+{
+    position: absolute;
+    left: -50px;
+    bottom: -157px;
+    width: 163px;
+    height: 141px;
+    background: #54667a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+
+}
+
+.menuProfile
+{
+    list-style: none;
+    position: relative;
+    top: -5px;
+    left: -67px;
+    margin-top: 20px;
+    padding-top: 2px;
+}
+
+.menuProfile li{
+    margin: 10px;
+}
+.menuProfile li a{
+    cursor: pointer;
+    color: white;
+}
+.menuProfile li a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.menuProfile li:hover{
+    background: #42a5f5;
+    border-radius: 6px;
+}
+.profilUserPExp
+{
+
+}
+.profilUserPExp span{
+    position: relative;
+    left: 75%;
+}
+
+.menuBarMain
+{
+    height: 58px;
+    width: 100%;
+    padding: 10px;
+    margin: auto !important;
+    position: fixed;
+    z-index: 200;
+    background: #54667a;
+    color: white;
+}
+
+.bouttonSlide{
+
+    text-align: right;
+    height: 4em;
+    line-height: 4em;
+    margin: 4px;
+    margin-bottom: 82px;
+    color: rgba(255,255,255,0.7);
+    cursor: pointer;
+}
+
+.containmenuItemLeft
+{
+    padding: 0 19%;
+}
+.menuItemBarLeft
+{
+    padding: 0px;
+    margin: 15px -9px 28px 9px;
+    min-width: 70px;
+    font-size: 14px;
+}
+.menuItemBarLeft a {
+    color: white;
+}
+.menuItemBarLeft a:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+#imgslide1{
+    display: none;
+}
+
+.iconeItemMenu
+{
+    margin-left: -8px;
+}
+.libMenuItem
+{
+    display: none;
+    padding-left: 5px;
+}
+
+.libMenuItem
+{
+    display: none;
+    padding-left: 5px;
+}
+
+#imgslide2
+{
+    position: relative;
+    top: 14px;
+    left: -9px;
+}
+#imgslide1
+{
+    position: relative;
+    top: 14px;
+    left: -96px;
+}
+
+.logouser{
+
+}
+/**************
+STYLE PAGE TABLEAU DE BORD
+ */
+.containerItemIfoStatistic
+{
+    width: 91%;
+    margin: auto;
+}
+
+.itemInfoStatistique
+{
+    width: 18%;
+    min-width: 116px;
+    height: 127px;
+    text-align: center;
+    display: inline-block;
+    margin: 2% 3%;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding-top: 25px;
+    font-size: 15px;
+}
+.detail{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px 0px;
+    background: rgba(0,0,0,0.2);
+    height: 47px;
+    text-align: center;
+    line-height: 3;
+}
+
+.blu{
+    background: #007bff;
+}
+
+.yelow{
+    background: #ffc107;
+}
+
+.green{
+    background: #20c997;
+}
+
+.red{
+    background: #e83e8b;
+}
+
+.barHorizontal
+{
+    height: 2px;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.texBlu{
+     color: blue;
+ }
+.texBlack{
+    color: black;
+    font-size: 12px;
+}
+.killMargin
+{
+    margin: 0;
+}
+.killPappin
+{
+    padding: 0;
+}
+
+.gras
+{
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.cache
+{
+    display: none;
+}
+.Blocenter{
+    width: 70%;margin: auto
+}
+
+
+.titleTab
+{
+    text-align: center;
+}
+
+.formAddCollab
+{
+
+}
+
+#messageDangerTrans
+{
+    display: none;
+}
+
+.rechercheAndAddCollapContainer{
+    margin-bottom: 10px;
+}
+
+#findRechercheDist{
+    visibility: hidden;
+}
+
+#dendTriSta
+{
+    display: none;
+}
+
+#ajoutDistPopop
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding-top: 112px;
+    display: none;
+}
+#addPopul
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding-top: 112px;
+    display: none;
+}
+
+#edittDistPopop
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding-top: 112px;
+    display: none;
+}
+.popopChild
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding-top: 5.5%;
+    display: none;
+}
+.popopChild-child
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+    padding-top: 5.5%;;
+    display: none;
+}
+
+#findRechercheDistChild
+{
+    visibility: hidden;
+}
+#edittTransPopop
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding-top: 112px;
+    display: none;
+}
+.alertMessageSucces{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3500;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+
+.alertMessageDanger{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3500;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.alertMessageInfo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3500;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.bueEfett
+{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);
+}
+
+
+#contenerPassword
+{
+    display: none;
+}
+
+
+#finrecherchHome
+{
+    visibility: hidden;
+}
+
+.btnSmall
+{
+    width: 33px !important;
+    height: 24px !important;
+    padding: 0 !important;
+}
+.smallInput
+{
+    height: 24px !important;
+}
+
+table{
+    font-size: 14px;
+    font-family: Calibri,Arial,sans-serif;
+
+}
+
+.btnChildLelt
+{
+    position: absolute;left: 10%;top: 10% !important;
+}
+.btnChildRigth
+{
+    position: absolute;right: 10%;top: 10% !important;
+}
+
+
+#findRechercheGainDist
+{
+    visibility: hidden;
+}
+
+
+#dendTriGain
+{
+    visibility: hidden;
+}
+
+
+/* SAMAMANE*/
+#addPopul
+{
+    display: none;
+}
+#findRechercheJoeur
+{
+    visibility: hidden;
+}
+@media screen and (max-width: 511px){
+    body{
+
+    }
+
+    .btnChildLelt
+    {
+        position: absolute;left: 10%;top: 7% !important;
+    }
+    .btnChildRigth
+    {
+        position: absolute;right: 10%;top: 7% !important;
+    }
+
+    .logoPExp a {
+        left: 28%;
+    }
+
+    .titleTab
+    {
+        text-align: center;
+        margin-left: 103px;
+    }
+
+    .formAddCollab
+    {
+        margin-left: -90px;
+        position: relative;
+        left: 50px;
+        width: 50%;
+        margin: auto;
+    }
+    .otherpage
+
+    {
+        width: 95%;
+        margin-left: 30%;
+        padding: 0;
+        font-size: 13px;
+        margin-top: 86px;
+    }
+    .menuItemBarLeft {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 512px ) and (max-width: 800px){
+    .otherpage
+    {
+        margin-left: 10%;
+    }
+
+    .btnChildLelt
+    {
+        position: absolute;left: 10%;top: 7% !important;
+    }
+    .btnChildRigth
+    {
+        position: absolute;right: 10%;top: 7% !important;
+    }
+}
